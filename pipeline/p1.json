@@ -1,0 +1,28 @@
+{
+	"name": "p1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "t1",
+					"value": "This is p1 live"
+				}
+			}
+		],
+		"variables": {
+			"t1": {
+				"type": "String"
+			},
+			"t2": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-12-08T13:58:00Z"
+	},
+	"type": "Microsoft.Synapse/workspaces/pipelines"
+}
