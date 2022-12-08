@@ -1,0 +1,26 @@
+{
+	"name": "Pipeline 1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "tp",
+					"value": {
+						"value": "this is in GIT branch",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"tp": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
